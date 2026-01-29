@@ -2,9 +2,9 @@ import 'package:assignment_module16/module16_Assignmnet/widgets/dummy%20data.dar
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CardItems extends StatelessWidget {
+class DesktopCardItems extends StatelessWidget {
   final Course course;
-  const CardItems({super.key, required this.course});
+  const DesktopCardItems({super.key, required this.course});
 
   @override
   Widget build(BuildContext context) {

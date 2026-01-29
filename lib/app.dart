@@ -1,4 +1,5 @@
-import 'package:assignment_module16/module16_Assignmnet/HomePage.dart';
+import 'package:assignment_module16/module16_Assignmnet/responsiveHome.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -11,8 +12,8 @@ class MyApp extends StatelessWidget {
       designSize: Size(300, 800),
       builder: (context, child) {
         return MaterialApp(
-          debugShowCheckedModeBanner: false, 
-        home: HomePage(),
+          debugShowCheckedModeBanner: false,
+          home: ResponsiveHome(),
         );
       },
     );

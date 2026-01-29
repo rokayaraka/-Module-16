@@ -1,9 +1,9 @@
-import 'package:assignment_module16/module16_Assignmnet/widgets/CardItems.dart';
+import 'package:assignment_module16/module16_Assignmnet/widgets/MobileCardItems.dart';
 import 'package:assignment_module16/module16_Assignmnet/widgets/dummy%20data.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class MobileHomePage extends StatelessWidget {
+  const MobileHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,12 +22,14 @@ class HomePage extends StatelessWidget {
             return InkWell(
               onHover: (value) => true,
               onTap: () {},
-              child: CardItems(course: courses[index]),
+              child: MobileCardItems(course: courses[index]),
             );
           },
         ),
       ),
       // body: CardItems(),
     );
+ 
+ 
   }
 }
