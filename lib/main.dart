@@ -1,6 +1,12 @@
 import 'package:assignment_module16/app.dart';
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 
+
 void main() {
-  runApp(MyApp());
+  runApp(
+   DevicePreview(
+    enabled: false,
+    builder: (context)=>MyApp())
+  );
 }
